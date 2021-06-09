@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="styleticket.xsl"?>
+<ticket>
+  <tipo>
+    <modalidad>FC Barcelona BASIC TOUR</modalidad>
+    <ventajas>Acceso al Museo del Barça y Tour del Camp Nou. </ventajas>
+    <precio>€12</precio>
+    <foto>../img/basicTour.png</foto>
+  </tipo>
+  <tipo>
+    <modalidad>FC Barcelona EL RONDO DEL MUSEO DEL BARÇA</modalidad>
+    <ventajas>¡Visita el Camp Nou Tour jugando en familia! Tendrás Acceso al Museo del Barça y al Tour del Camp Nou. Recomendado para niños a partir de 4 años. Tendrás un Diploma Superculer al acabar.</ventajas>
+    <precio>€12</precio>
+    <foto>../img/ElRondoMuseoBarça.png</foto>
+  </tipo>
+  <tipo>
+    <modalidad>FC Barcelona CAMP NOU LIVE STREAM TOUR</modalidad>
+    <ventajas>Visita en directo virtual e interactiva del Camp Nou y Museo de 45 minutos. Estés donde estés y desde cualquier dispositivo. Acceso a zonas no abiertas al Tour presencial, como el vestuario del primer equipo y la guía oficial del Barça. Podrás hacer preguntas en directo al guía y dejar tus comentarios</ventajas>
+    <precio>€10</precio> 
+    <foto>../img/StreamTour.png</foto> 
+  </tipo>
+  <tipo>
+    <modalidad>FC Barcelona PLAYERS EXPERIENCE TOUR</modalidad>
+    <ventajas>Guía oficial FC Barcelona. Acceso VIP y recorrido áreas privadas, visita exclusiva del vestuario del Barça, paseo por el terreno de juego, regalo oficial FCB, experiencia sala de prensa y personalización gratuita de camiseta</ventajas>
+    <precio>€49</precio>
+    <foto>../img/PlayersExperience.png</foto>
+  </tipo>
+  <tipo>
+    <modalidad>FC Barcelona BASIC TOUR (GRUPOS MINIMO 50 PERSONAS)</modalidad>
+    <ventajas>Visita al museo del Barça, visita no guiada y vista panorámica del Camp Nou</ventajas>
+    <precio>€20</precio>
+    <foto>../img/TourGrupo.png</foto>
+  </tipo>
+</ticket>

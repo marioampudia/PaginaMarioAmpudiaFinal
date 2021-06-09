@@ -1,0 +1,164 @@
+/* 
+    #10A344
+    #11AD24
+    #289617
+    #3C820A
+    #7FB305
+*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    
+    
+}
+
+
+header {
+    background-color: #cc1d2b;
+}
+nav {
+    background-color: #9dcc7c;
+}
+
+body {
+    background-image: url("../img/fondo_Index.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
+   
+}
+
+button[type=submit] {
+    width: 8em;  height: 2em;
+}
+input[type=reset] {
+    width: 8em;  height: 2em;
+}
+input[type=text] {
+    width: 20em;  height: 3em;
+}
+input[type=email] {
+    width: 20em;  height: 3em;
+}
+input[type=color] {
+        width: 10em;  height: -20em;
+    }
+input[type=number] {
+        width: 3em;  height:3em;
+    }
+input[type=number]{
+       
+        font-size: xx-large;
+    } 
+#Val {
+    font-size: xx-large;
+}
+#buttonsend{
+    font-size: xx-large;
+}
+#buttonreset{
+    font-size: xx-large;
+}
+.link {
+    color: rgb(0, 0, 0);
+    padding: 20px 30px;
+}
+
+.link:hover {
+    color: rgb(0, 0, 0);
+    padding: 20px 50px;
+}
+
+/*      BARRA DE NAVEGACION     */
+nav th {
+    font-size: larger;
+    float: left;
+    padding: 10px 0;
+
+}
+
+nav th:hover {
+    font-size: larger;
+    float: left;
+    padding: 8px 0;
+    border-bottom: 4px solid  #1f3f08;
+    background-color: #7ef59c;
+    border-radius: 10px;
+}
+
+/*      BODY        */
+
+article {
+    padding: 40px;
+    }
+
+
+article img {
+    padding: 40px 60px;
+}
+
+aside {
+    float: right;
+}
+
+article h3 {
+    padding-bottom: 20px;
+    
+}
+
+.enc {
+    color: rgb(0, 0, 0);
+    margin: 10px 80px;
+    padding: 5px 30px;
+    border-bottom: 4px solid  #1f3f08;
+    background-color: #d0f040;
+    border-radius: 10px;
+}
+
+.enc:hover {
+    padding: 10px 35px;
+    margin: 10px 75px;
+}
+
+/*      TABLAS EN ARTICULOS     */
+
+table {
+    background-color: #9dcc7c;
+    border-radius: 10px;
+}
+
+article th {
+    font-size: larger;
+    float: left;
+    padding: 10px 20px;
+}
+
+article th:hover {
+    color: rgb(0, 0, 0);
+    font-size: larger;
+    padding: 8px 0;
+    border-bottom: 4px solid  #1f3f08;
+    background-color: #7FB305;
+    border-radius: 10px;
+}
+
+/*      FONDO DE LA PAGINA      */
+
+footer {
+    background-color: #9dcc7c;
+    padding: 40px 0;
+    margin: bottom;
+}
+
+footer img {
+    float: right;
+    margin: -8px 10px;
+}
+
+footer img:hover {
+    height: 50px;
+    margin: 10 px -14px;
+}

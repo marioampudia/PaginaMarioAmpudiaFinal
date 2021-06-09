@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title> Danos tu opinión </title>
+        <meta charset="UTF-8">
+        <meta name="author" content="Mario">
+        <meta name="keywords" content="Pagina web Mario">
+        <meta name="description" content="Practica Mario">
+        <link rel="stylesheet" type="text/css" href="../css/common.css" />
+      
+
+	</head>
+	<body>
+		<header>
+            <img src="../img/LaLiga.png" height="100" alt="Imagen Primera Division">
+        </header>
+        <nav>
+            <table>
+                <thead>
+                    <tr>
+                        <th><a class="link" href="index.html">Home</a></th>
+                        <th><a class="link" href="clasificacion.html">Clasificación</a></th>
+                        <th><a class="link" href="resultados.html">Resultados</a></th>
+                        <th><a class="link" href="galeria.html">Galeria</a></th>
+                        <th><a class="link" href="Infgeneral.html">Informacion</a></th>
+                        <th><a class="link" href="plantilla.html">Plantilla</a></th>
+                    </tr>
+                </thead>
+            </table>
+        </nav>
+		<main>
+        
+            <form action="./validaenquesta.php" method="POST">
+                <!--Email (Obligatorio)-->
+                <br>
+                <p style="font-size:220%;">
+                    <label for="email"><b>E-mail ➨ </b></label>
+                    <input type="email" id="idEmail" name="correo" placeholder="Introduce tu correo electrónico" required>
+                </p>
+                <br>
+                <br>
+                <br>
+                <!--Nombre usuario (Obligatorio)-->
+                <p style="font-size:220%;">
+                    <label for="user"><b>Nombre Completo ➨ </b></label>
+                    <input id="user" type="text" placeholder="Introduce tu Nombre" name="uname" required>
+                </p>
+                <br>
+                <br>
+                <br>
+                <!--Puntuacion del 1 al 5-->
+                <p style="font-size:220%;">
+                    <label for="idPunt"><b>Puntuacion Web (1-5) ➨ </b></label>
+                    <input id="idPunt" name="altura" type="number" min="1" max="5" step="1" placeholder="1-5" required>
+                </p>
+                <br>
+                <br>
+                <br>
+                <p style="font-size:220%;">
+                    <label for="Color"><b>¿Que color te gusta más? ➨</b></label>
+                    <input id="Color" name="color1" type="color" value="#FFFF00">
+                </p>
+                <br>
+                <br>
+                <br>
+                <!--Desplegable Opinion-->
+                <p style="font-size:220%;">
+                <label for="Val"><b>Valoración Global ➨ </b></label>
+                <select id="Val" name="Valoracion Global">
+                    <option value="1">Sublime</option>
+                    <option value="2">Excelente</option>
+                    <option value="3">Notable</option>
+                    <option value="4">Regular</option>
+                    <option value="5">Mala</option>
+                    <option value="6">Lamentable</option>
+                </select>
+                 </p>
+                 <br>
+                <br>
+                <br>
+                <!--Observaciones-->
+                
+                <p style="font-size:220%;">
+                    <label for="observación"><b>Observación ➨</b></label>
+                    <input type="text" id="IdObs" name="nombre" placeholder="Tu opinión es de gran ayuda para el equipo" autofocus size="150" maxlength="200">
+                </p>
+                <br>
+                <br>
+                <br>
+                <!--Subir Formulario-->
+                <p>
+                    <input value="Reset 🔄" id="buttonreset" type="reset" >
+                    <button type="submit" id="buttonsend"> Enviar ✔ </button>
+                </p>
+                <br>
+                <br>
+                <br>
+              </form>
+              
+        </main>
+    </body>	
+    <footer>
+        <a href="https://www.facebook.com/LaLiga/"> <img src="../img/Facebook.png" alt="Facebook" height="40"></a>
+        <a href="https://www.instagram.com/laliga/?hl=es"> <img src="../img/instagram.png" alt="Instagram" height="40"></a>
+        <a href="https://twitter.com/LaLiga"> <img src="../img/twitter.png" alt="Twitter" height="40"></a>
+        <p>La Liga Santander Copyright &copy; 2021 -- Banco Santander, S.A. -- Telf: 900 811 381</p>
+    </footer>
+</html>
